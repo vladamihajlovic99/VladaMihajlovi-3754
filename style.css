@@ -1,0 +1,548 @@
+ *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+
+/* HEEEEEEEEEEADERRRRRRRRRRRR*/
+
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:rgb(0,0,0);
+    height:15vh;
+    position:fixed;
+    border-bottom:red solid 1px;
+    z-index: 50;
+}
+
+header .navbar{
+    width:60%;
+}
+
+header .navbar ul{
+    display:flex;
+    justify-content: space-between;
+    font-family:"Helvetica" , sans-serif;
+
+    
+}
+
+header .navbar ul li{
+    list-style: none;
+    margin-right:5%;
+}
+
+header .navbar ul li a{
+    color:#FFF;
+    text-decoration:none;
+    font-size:0.8rem;
+    text-transform:uppercase;
+    padding-bottom:5px;
+    font-weight:bold;
+    
+    border-bottom:solid transparent 1px;
+
+   
+}
+
+
+header .navbar ul li a:hover{
+
+    border-bottom:solid red 1px;
+    transition:0.9s;
+}
+
+.logo{
+    width:35%;
+}
+
+
+/******* FIRST SECTIOOOOOOOOOOOON***/
+
+
+.first-section{
+    padding:20vh 10% 0 10%;
+    display:flex;
+    flex-direction:column;
+    font-family:"Helvetica",sans-serif;
+    background-color:rgba(0,0,0,1);
+}
+
+
+
+.first-card{
+    width:250px;
+    height:400px;
+    margin:10px;
+    
+    text-transform:uppercase;
+    color:#f5f5f5;
+    font-size:0.5rem;
+    position:relative;
+    z-index:1;
+}
+
+.first-card:nth-child(1){
+
+    background:url('Logo dizajn/4.jpg');
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+
+.first-card:nth-child(2){
+    background:url("dizajn pakovanja/1.jpg");
+    background-position:center;
+    background-size:cover;
+    filter:grayscale(1.0);
+}
+
+.first-card:nth-child(3){
+    background:url('Plakati/7.jpg');
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+
+.first-card:nth-child(4){
+    background:url('clothing/clo2.jpg');
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+
+.first-card:hover{
+    transform:scale(1.1);
+    transition:0.7s;
+    border-radius:5px;
+    filter:none;
+}
+
+
+.first-card-layer{
+    width:100%;
+    height:15%;
+    margin-top:280px;
+    background-color:rgba(0,0,0,0.5);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.first-card-layer:hover{
+    background-color:rgba(0,0,0,0.7);
+    transition:0.5s;
+    
+}
+.cards{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+
+.profile-pic{
+   
+    display:flex;
+
+    flex-direction:column;
+    align-items:center;
+    padding-top:20px;
+    color:white;
+    padding-top:100px;
+
+   
+    
+}
+
+.profile-pic h1{
+    font-size:1.2rem;
+    margin-bottom:4px;
+   
+}
+
+.profile-pic h3{
+    font-size:0.9rem;
+    font-style:italic;
+    font-weight:lighter;
+}
+
+
+
+.profile-pic .photo{
+    background:url('img/vlada.jpg');
+    width:100px;
+    height:100px;
+    background-size:cover;
+    background-position:center;
+    border-radius:50px;
+    filter:grayscale(1.0);
+    margin-bottom:13px;
+    
+
+}
+
+
+.profile-pic .photo:hover{
+    filter:none;
+    transition:0.7s;
+    
+}
+
+
+
+/******* SECOND SECTIOOOOOOOOOOOOOON ****/
+
+
+.second-section{
+    padding:20vh 10% 0 10%;
+    font-family: 'Helvetica', sans-serif;
+    background-color:black;
+}
+
+
+.second-section .logo-container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    
+}
+
+.second-section .logo-container div{
+    width:300px;
+    height:300px;
+    
+    margin-bottom:50px;
+    margin-right:10px;
+
+    border-radius:5px;
+
+}
+
+
+.second-section .logo-container div:hover{
+    filter:none;
+    transition:0.9s;
+    transform:scale(1.1);
+    border-radius:0;
+}
+.second-section h1{
+    color:white;
+    font-size:1rem;
+    padding-left:50px;
+    margin-bottom:30px;
+    
+}
+
+.logo-container div:nth-child(1){
+    background:url("Logo dizajn/1.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+
+.logo-container div:nth-child(2){
+    background:url("Logo dizajn/2.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+
+}
+.logo-container div:nth-child(3){
+    background:url("Logo dizajn/3.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.logo-container div:nth-child(4){
+    background:url("Logo dizajn/4.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.logo-container div:nth-child(5){
+    background:url("Logo dizajn/5.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.logo-container div:nth-child(6){
+    background:url("Logo dizajn/6.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.logo-container div:nth-child(7){
+    background:url("Logo dizajn/7.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.logo-container div:nth-child(8){
+    background:url("Logo dizajn/8.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.logo-container div:nth-child(9){
+    background:url("Logo dizajn/9.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+    
+}
+
+
+/******* THIRD SECTIOOOOOOOOOOOON****/
+
+#third-section{
+    padding:18vh 10% 10vh 10%;
+    background-color:#000;
+    font-family:"Helvetica",sans-serif;
+}
+
+.third-section h1{
+    margin-bottom:50px;
+    color:white;
+}
+
+.third-section .package-design-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.third-section .package-design-container div{
+    width:320px;
+    background-color:black;
+    height:450px;
+    margin-bottom:10px;
+    border-radius:5px;
+}
+
+.third-section .package-design-container div:hover{
+    border-radius:0px;
+    transition:0.9s;
+    transform:scale(1.1);
+}
+
+.third-section .package-design-container div:nth-child(1){
+    background:url('Dizajn pakovanja/1.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+.third-section .package-design-container div:nth-child(2){
+    background:url('Dizajn pakovanja/2.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+
+.third-section .package-design-container div:nth-child(3){
+    background:url('Dizajn pakovanja/3.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+.third-section h1{
+    color:white;
+    font-size:1rem;
+    padding-left:10 px;
+    margin-bottom:30px;
+    
+}
+
+
+
+
+/* FOOOOOOOOOOURTH SECTION*/
+
+.fourth-section{
+    padding:18vh 10% 10vh 10%;
+    background-color:#000;
+    font-family:"Helvetica",sans-serif;
+    color:white;    
+
+    
+}
+.poster-container{
+    
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
+        flex-wrap:wrap;
+        
+
+}
+
+.poster-container div{
+
+    width:300px;
+    height:420px;
+    
+    margin-bottom:50px;
+    margin-right:10px;
+
+    border-radius:5px;
+    background-color:white;
+
+}
+
+
+.poster-container div:nth-child(1){
+    background:url("Plakati/1.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+
+.poster-container div:nth-child(2){
+    background:url("Plakati/2.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+
+}
+.poster-container div:nth-child(3){
+    background:url("Plakati/3.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.poster-container div:nth-child(4){
+    background:url("Plakati/4.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.poster-container div:nth-child(5){
+    background:url("Plakati/5.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.poster-container div:nth-child(6){
+    background:url("Plakati/6.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.poster-container div:nth-child(7){
+    background:url("Plakati/7.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.poster-container div:nth-child(8){
+    background:url("Plakati/8.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+}
+.poster-container div:nth-child(9){
+    background:url("Plakati/9.jpg");
+    background-size:cover;
+    background-position:center;
+    filter:grayscale(1.0);
+    
+}
+
+.fourth-section .poster-container div:hover
+{
+    filter:none;
+    transition:0.9s;
+    transform:scale(1.1);
+    border-radius:0;
+}
+.fourth-section h1{
+    color:white;
+    font-size:1rem;
+    padding-left:50px;
+    margin-bottom:30px;
+
+}
+
+/******* FIFTH SECTIOOOOOOOOOOOON****/
+
+#fifth-section{
+    padding:18vh 10% 3vh 10%;
+    background-color:#000;
+    font-family:"Helvetica",sans-serif;
+}
+
+.fifth-section h1{
+    margin-bottom:50px;
+    color:white;
+}
+
+.fifth-section .cloth-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.fifth-section .cloth-container div{
+    width:500px;
+    background-color:black;
+    height:450px;
+    margin-bottom:10px;
+    border-radius:5px;
+}
+
+.fifth-section .cloth-container div:hover{
+    border-radius:0px;
+    transition:0.9s;
+    transform:scale(1.1);
+}
+
+.fifth-section .cloth-container div:nth-child(1){
+    background:url('clothing/clo1.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+.fifth-section .cloth-container div:nth-child(2){
+    background:url('clothing/clo2.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+
+
+.fifth-section h1{
+    color:white;
+    font-size:1rem;
+    padding-left:10 px;
+    margin-bottom:30px;
+    
+}
+
+
+footer{
+    background-color:black;
+    color:red;
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:200px;
+	font-size:0.5rem;
+    font-family:"Helvetica" , sans-serif;  
+}
+
+footer .h1{
+    font-weight:lighter;
+}
