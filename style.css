@@ -98,9 +98,9 @@ header .navbar ul li a:hover{
 }
 
 .first-card:nth-child(2){
-    background:url("Dizajn pakovanja/1.jpg");
-    background-position:center;
+    background:url('Dizajn pakovanja/1.jpg');
     background-size:cover;
+    background-position:center;
     filter:grayscale(1.0);
 }
 
